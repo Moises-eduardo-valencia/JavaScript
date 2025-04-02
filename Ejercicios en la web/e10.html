@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let mes=prompt("Ingresa tu mes"); 
+        let dia=prompt("Ingresa tu dia"); 
+        let signo = "";
+if ((mes == 3 && dia >= 21) || (mes == 4 && dia <= 19)) {
+    signo = "Aries";
+} else if ((mes == 4 && dia >= 20) || (mes == 5 && dia <= 20)) {
+    signo = "Tauro";
+} else {
+    signo = "Otro signo"; 
+}
+console.log("El signo zodiacal es: "+signo);
+alert("El signo zodiacal es: "+signo);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
