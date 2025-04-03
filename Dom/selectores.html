@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="titulo">Hola, mundo</h1>
+    <p class="parrafo">Esto es un parrafo</p>
+    <p class="parrafo">Esto es un parrafo 1</p>
+    <p class="parrafo">Esto es un parrafo 2</p>
+    <h2>Subtitulo</h2>
+</body>
+<script>
+    //seleccion por medio de ID
+    /*let texto = document.getElementById("titulo");
+    console.log(texto.innerText);*/
+    /*let texto = document.getElementsByClassName("parrafo");
+    console.log(texto[0].innerText);
+    console.log(texto[1].innerText);
+    console.log(texto[2].innerText);*/
+    let texto = document.getElementsByTagName("p");
+    console.log(texto[0].innerText);
+    texto[0].innerText='JavaScript';
+    texto[0].innerHTML="<strong>Hola</strong>"
+</script>
+</html>
